@@ -55,7 +55,7 @@ Tile.prototype.getActualValue = function ()
             return "H";
             
     case 512:
-            return "I";
+            return "*I*";
             
     case 1024:
             return "J";

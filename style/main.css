@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #82cafa; /*#faf8ef;*/
+  color: #f9f6f2;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,7 +53,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #1589ff; /*#bbada0;*/
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -149,7 +149,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #1589ff; /*#bbada0;*/
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -183,7 +183,7 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #1589ff; /*#8f7a66;*/
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -313,20 +313,22 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eef4da;
+    color: #f9f6f2;
+    background: #81d8d0;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ffffc8;
+    color: #f9f6f2;
+    background: #f75d59;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background: #f2b179; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: #fbb917; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #6cbb3c; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b; }
@@ -484,11 +486,12 @@ hr {
 .game-intro {
   float: left;
   line-height: 42px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-size: 25px;}
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #6cc417; /*#8f7a66;*/
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -530,7 +533,8 @@ hr {
     width: 55%;
     display: block;
     box-sizing: border-box;
-    line-height: 1.65; }
+    line-height: 1.65;
+    font-size: 15px; }
 
   .restart-button {
     width: 42%;
